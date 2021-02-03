@@ -1,0 +1,24 @@
+@mixin text($color: white) {
+    font-size: $fontText;
+    font-weight: $fontW;
+    color: $color;
+}
+
+@mixin Titletext($color: white) {
+    font-size: $fontTitle;
+    font-weight: $fontW;
+    color: $color;
+}
+
+@mixin Linktext($colorActive, $color: white) {
+    font-size: $fontText;
+    font-weight: $fontW;
+    color: $color;
+    
+    &:hover{
+        color: $colorActive;
+    }
+    &:active{
+        color: $colorActive;
+    }
+}

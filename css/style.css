@@ -1,0 +1,189 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #626262;
+  padding: 0;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 600;
+  color: #626262;
+}
+
+p {
+  font-size: 1.1em;
+  color: #626262;
+}
+
+span {
+  color: #FF4500;
+}
+
+.navbar-brand {
+  width: 150px;
+  font-size: xx-large;
+  line-height: 1;
+  text-align: center;
+  border: 3px solid #706b73;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.1em;
+  color: #626262;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FF4500;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  color: #FF4500;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-header {
+  height: 50px;
+}
+
+.form-control {
+  margin-top: 20px;
+  border: 0;
+  border-bottom: 1px solid #626262;
+}
+
+.btn-dark {
+  width: 100%;
+  font-size: 1em;
+  border-radius: .50rem;
+}
+
+.btn-light {
+  width: 40%;
+  font-size: 1em;
+  border-radius: .90rem;
+  background-color: #efeeef;
+}
+
+.btn-light:hover {
+  background-color: #F8F8FF;
+}
+
+.first-page {
+  min-height: 755px;
+  max-height: 100%;
+  background-image: url("https://artemtribunskiy.github.io/tribunskiy-lesson-11/img/main-bg.jpg");
+}
+
+.last-page {
+  height: 80px;
+  background-color: #f5f5f5;
+}
+
+.last-page .btn-last {
+  background-color: #F0FFFF;
+  margin-top: 20px;
+}
+
+.last-page .btn-last a {
+  color: #626262;
+  text-decoration: none;
+}
+
+.block {
+  text-align: center;
+  background-color: red;
+  border-radius: .50rem;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.block-works {
+  width: 360px;
+  height: 360px;
+  background-image: url(https://artemtribunskiy.github.io/tribunskiy-lesson-11/img/works/2.jpg);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.title-text-blockW {
+  margin-top: 100px;
+  font-size: 250%;
+  font-weight: 600;
+  color: white;
+}
+
+#content-block {
+  max-height: 300px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #626262;
+  margin-right: 10px;
+}
+
+#content-block:last-child {
+  margin-top: 60px;
+  margin-right: 0;
+}
+
+#block-item:hover {
+  background-color: #f5f5f5;
+}
+
+.service-line {
+  width: 60px;
+  height: 4px;
+  background-color: #FF4500;
+  display: inline-block;
+  border-bottom: 10px;
+}
+
+.myText {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #626262;
+}
+
+.myText-title {
+  font-size: 250%;
+  font-weight: 600;
+  color: #626262;
+}
+
+.myText-link {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #626262;
+}
+
+.myText-link:hover {
+  color: #FF4500;
+}
+
+.myText-link:active {
+  color: #FF4500;
+}
+
+.myContainer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.myBtn {
+  font-size: 1em;
+  color: white;
+  background-color: #FF4500;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: .50rem;
+}
+
+.min-text-block {
+  margin: 0;
+  font-size: 90%;
+}
